@@ -1,12 +1,12 @@
 
 
-# 🏥 Multilingual Clinical Audio-to-Text Engine
+#  Multilingual Clinical Audio-to-Text Engine
 
 > **A hospital-grade backend that converts spoken clinical audio in *any language* into accurate, auditable medical text — fully offline, privacy-first, and production-ready.**
 
 ---
 
-## ✨ What This Is
+##  What This Is
 
 This project is a **multilingual clinical ASR (Automatic Speech Recognition) system** designed for hospitals and healthcare providers.
 
@@ -20,9 +20,9 @@ All without cloud dependencies or external APIs.
 
 ---
 
-## 🧠 Core Capabilities
+##  Core Capabilities
 
-### 🎙️ Audio → Medical Text (Any Language)
+###  Audio → Medical Text (Any Language)
 
 * Accepts real-world hospital audio (noise, accents, interruptions)
 * Supports multilingual speech automatically
@@ -35,13 +35,13 @@ All without cloud dependencies or external APIs.
 * Normalizes terminology
 * Designed for EHR / documentation workflows
 
-### 🌍 Native-Language Output (From Audio)
+###  Native-Language Output (From Audio)
 
 * Same audio → text in Hindi, Telugu, Tamil, etc.
 * No text-to-text translation (prevents semantic drift)
 * Output is always traceable to the original audio
 
-### 🧾 Audit-First Architecture
+###  Audit-First Architecture
 
 * Every audio upload is logged
 * Every transcription is persisted
@@ -50,7 +50,7 @@ All without cloud dependencies or external APIs.
 
 ---
 
-## 🏗️ Architecture (High-Level)
+##  Architecture (High-Level)
 
 ```
 Audio (any language)
@@ -73,7 +73,7 @@ SQLite persistence + audit logs
 
 ---
 
-## 🔒 Privacy by Design
+##  Privacy by Design
 
 * Fully **offline**
 * No external APIs
@@ -83,7 +83,7 @@ SQLite persistence + audit logs
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 * **Python 3.11+**
 * **FastAPI** – clean, async REST APIs
@@ -93,7 +93,7 @@ SQLite persistence + audit logs
 
 ---
 
-## 🚀 API Overview
+##  API Overview
 
 ### Upload Audio
 
@@ -119,7 +119,7 @@ No hidden behavior.
 
 ---
 
-## 🧪 Why Hospitals Trust This
+##  Why Hospitals Trust This
 
 * Deterministic outputs
 * Human-in-the-loop friendly
@@ -130,18 +130,18 @@ No hidden behavior.
 
 ---
 
-## ⚠️ What This Is *Not*
+##  What This Is *Not*
 
-* ❌ Not a chatbot
-* ❌ Not a demo toy
-* ❌ Not a cloud-only AI service
-* ❌ Not real-time conversational translation (yet)
+*  Not a chatbot
+*  Not a demo toy
+*  Not a cloud-only AI service
+*  Not real-time conversational translation (yet)
 
 This is a **clinical backend foundation**.
 
 ---
 
-## 🛣️ Roadmap (Post-Pilot)
+##  Roadmap (Post-Pilot)
 
 * Authentication & role-based access
 * Confidence scoring UI
@@ -152,15 +152,15 @@ This is a **clinical backend foundation**.
 
 ---
 
-## 🏁 Status
+##  Status
 
-✅ Feature-complete for pilot
-✅ Hospital-grade architecture
-✅ Internship + enterprise credible
+ Feature-complete for pilot
+ Hospital-grade architecture
+ Internship + enterprise credible
 
 ---
 
-## 👨‍⚕️ Final Word
+##  Final Word
 
 This system doesn’t try to *replace doctors*.
 It removes friction, paperwork, and language barriers — **safely**.
